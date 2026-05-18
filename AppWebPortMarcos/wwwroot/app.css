@@ -1,0 +1,130 @@
+html, body {
+    background: #000000;
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+}
+
+.pagina-inicial {
+    background: #0b0b0f;
+    color: #ffffff;
+    min-height: 100vh;
+    padding: 2rem 1.5rem 4rem;
+}
+
+.secao-banner {
+    padding: 1.5rem 0 2rem;
+}
+
+.banner-principal {
+    background: linear-gradient(135deg, #4B0082, #8B0000);
+    border-radius: 20px;
+    color: #ffffff;
+    padding: 2rem;
+    text-align: center;
+}
+
+.subtitulo-banner,
+.numero-destaque {
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.subtitulo-banner {
+    color: #ffffff;
+    margin: 0 0 0.75rem;
+}
+
+.titulo-banner {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin: 0;
+}
+
+.texto-banner {
+    line-height: 1.6;
+    margin: 1rem auto 0;
+    max-width: 38rem;
+}
+
+.secao-destaques {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.cartao-destaque {
+    background: #111111;
+    border: 1px solid #4B0082;
+    border-radius: 16px;
+    box-shadow: 0 10px 24px rgba(139, 0, 0, 0.25);
+    padding: 1.5rem;
+    color: #ffffff;
+}
+
+.cartao-claro {
+    background: #ffffff;
+    color: #000000;
+}
+
+.cartao-escuro {
+    background: #000000;
+    color: #ffffff;
+    border: 1px solid #8B0000;
+}
+
+.cartao-destaque-contato {
+    background: #1a0f1f;
+    border: 1px solid #8B0000;
+}
+
+.numero-destaque {
+    color: #8B0000;
+    display: inline-block;
+    margin-bottom: 1.25rem;
+}
+
+.cartao-destaque h2 {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 1.7rem;
+    margin: 0 0 0.75rem;
+}
+
+.cartao-destaque p {
+    line-height: 1.65;
+    margin: 0 0 1.25rem;
+}
+
+.cartao-destaque a {
+    color: #4B0082;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+    .cartao-destaque a:hover,
+    .cartao-destaque a:focus {
+        text-decoration: underline;
+        color: #8B0000;
+    }
+
+@media (max-width: 900px) {
+    .secao-destaques {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 640px) {
+    .pagina-inicial {
+        padding: 1rem 1rem 3rem;
+    }
+
+    .banner-principal,
+    .cartao-destaque {
+        border-radius: 14px;
+    }
+
+    .banner-principal {
+        padding: 1.5rem;
+    }
+}

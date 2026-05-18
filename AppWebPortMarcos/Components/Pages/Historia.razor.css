@@ -1,0 +1,50 @@
+﻿.topo {
+    background: linear-gradient(135deg, #4B0082, #8B0000);
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.minhaH {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #0b0b0f;
+    border: 1px solid #4B0082;
+    border-radius: 12px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 0;
+}
+
+h3 {
+    color: #8B0000;
+    text-align: center;
+}
+
+p {
+    margin-top: 20px;
+    line-height: 1.7;
+}
+
+.voltar {
+    max-width: 800px;
+    margin: 20px auto 0;
+    padding: 0 30px;
+}
+
+.voltar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    border: 1px solid #4B0082;
+    padding: 8px 14px;
+    border-radius: 8px;
+    background: #111111;
+}
+.voltar a:hover {
+    background: #8B0000;
+}
